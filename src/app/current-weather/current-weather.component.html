@@ -1,14 +1,15 @@
 <div *ngIf="current">
-  <div>
+  <div class="city">
     <span>{{ current.city }}, {{ current.country }}</span>
-    <br>
+  </div>
+  <div class="date">
     <span>{{ current.date | date:'fullDate' }}</span>
   </div>
-  <div>
+  <div class="temp">
     <img [src]='current.image' />
     <span>{{current.temperature | number:'1.0-0'}} &#8457;</span>
   </div>
-  <div>
+  <div class="description">
     {{current.description}}
   </div>
 </div>

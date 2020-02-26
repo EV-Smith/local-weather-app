@@ -32,7 +32,7 @@ export class WeatherService implements IWeatherService {
   }
 
   private transformToICurrentWeather(data: ICurrentWeatherData) : ICurrentWeather{
-    return {
+     return {
       city: data.name,
       country: data.sys.country,
       date: data.dt * 1000,
