@@ -1,9 +1,9 @@
 mat-card {
-  width: 30%;
+  width: 30rem;
   height: 240px;
   margin: 30px auto;
   padding: 40px;
-  background-color: #ff4081;
+  background: #3f51b5;
   color: #ffffff;
   font-family: 'M PLUS 1p', sans-serif; 
   font-weight: 900;

@@ -1,8 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 body {
   font-family: 'M PLUS 1p', sans-serif; 
-  background-image: url("images/bg1.jpg");
+  background-color: #7a7a7a;
+  background-image: url("images/bg2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
-
